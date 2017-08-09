@@ -36,8 +36,24 @@ Go to the store and buy some more, 99 bottles of beer on the wall.`;
         expect(expect_string).to.equal(result);
     });
     it("return a lyric when pass 2", function(){
-        var result = song(2);
-        var expect_string = `2 bottles of beer on the wall, 2 bottles of beer.
+        var result = song(10);
+        var expect_string = `10 bottles of beer on the wall, 10 bottles of beer.
+Take one down and pass it around, 9 bottles of beer on the wall.
+9 bottles of beer on the wall, 9 bottles of beer.
+Take one down and pass it around, 8 bottles of beer on the wall.
+8 bottles of beer on the wall, 8 bottles of beer.
+Take one down and pass it around, 7 bottles of beer on the wall.
+7 bottles of beer on the wall, 7 bottles of beer.
+Take one down and pass it around, 6 bottles of beer on the wall.
+6 bottles of beer on the wall, 6 bottles of beer.
+Take one down and pass it around, 5 bottles of beer on the wall.
+5 bottles of beer on the wall, 5 bottles of beer.
+Take one down and pass it around, 4 bottles of beer on the wall.
+4 bottles of beer on the wall, 4 bottles of beer.
+Take one down and pass it around, 3 bottles of beer on the wall.
+3 bottles of beer on the wall, 3 bottles of beer.
+Take one down and pass it around, 2 bottles of beer on the wall.
+2 bottles of beer on the wall, 2 bottles of beer.
 Take one down and pass it around, 1 bottle of beer on the wall.
 1 bottle of beer on the wall, 1 bottle of beer.
 Take one down and pass it around, no more bottles of beer on the wall.
